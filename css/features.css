@@ -3,6 +3,11 @@
   gap: 24px;
 }
 
+.features-list svg {
+  width: 64px;
+  height: 64px;
+}
+
 .features-item {
   display: flex;
   flex-direction: column;
@@ -15,5 +20,12 @@
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--navy-blue);
+}
+
+.icon-thumb {
+  background-color: var(--cloud);
+  padding: 24px 100px;
+  border: 1px solid var(--light-slate);
+  border-radius: 4px;
 }

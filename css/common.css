@@ -1,7 +1,22 @@
+:root {
+  --iris: #4d5ae5;
+  --ocean: #404bbf;
+  --slate: #434455;
+  --light-slate: #8e8f99;
+  --navy-blue: #2e2f42;
+  --white: #ffffff;
+  --cloud: #f4f4fd;
+  --grey: rgba(46, 47, 66, 0.7);
+  --dairy: #fcfcfc;
+  --navy-blue-modal: #2e2f4266;
+  --cornflower: #e7e9fc;
+  --green: #31d0aa;
+}
+
 body {
   font-family: "Roboto", sans-serif;
-  color: #434455;
-  background-color: #ffffff;
+  color: var(--slate);
+  background-color: var(--white);
   letter-spacing: 0.02em;
   line-height: 1.5;
 }
@@ -39,11 +54,11 @@ img {
   font-weight: 700;
   line-height: 1.33;
   letter-spacing: 0.03em;
-  color: #2e2f42;
+  color: var(--navy-blue);
 }
 
 .logo-accent {
-  color: #4d5ae5;
+  color: var(--iris);
 }
 
 .container {

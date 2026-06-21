@@ -1,14 +1,37 @@
 .footer {
-  background-color: #2e2f42;
+  background-color: var(--navy-blue);
   padding: 100px 0;
 }
 
+.footer .box {
+  display: flex;
+  gap: 120px;
+}
+
 .footer .logo {
-  color: #f4f4fd;
+  color: var(--cloud);
 }
 
 .footer .text {
-  color: #f4f4fd;
+  color: var(--cloud);
   width: 264px;
   margin-top: 16px;
+}
+
+.social {
+  max-width: 208px;
+}
+
+.social .social-list {
+  margin-top: 16px;
+}
+
+.social svg {
+  width: 24px;
+  height: 24px;
+}
+
+.social .title {
+  font-weight: 500;
+  color: var(--white);
 }
