@@ -3,11 +3,6 @@
   gap: 24px;
 }
 
-.features-list svg {
-  width: 64px;
-  height: 64px;
-}
-
 .features-item {
   display: flex;
   flex-direction: column;
@@ -25,7 +20,10 @@
 
 .icon-thumb {
   background-color: var(--cloud);
-  padding: 24px 100px;
   border: 1px solid var(--light-slate);
   border-radius: 4px;
+  height: 112px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

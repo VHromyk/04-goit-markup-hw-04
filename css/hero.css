@@ -7,6 +7,7 @@
     url(../images/hero-bg.png);
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
 }
 
 .hero-title {
@@ -32,11 +33,12 @@
   border-radius: 4px;
   margin: 48px auto 0;
   display: block;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
+  transition: background-color 250ms linear;
 }
 
 .hero-button:hover,
 .hero-button:focus,
 .hero-button:active {
   background-color: var(--ocean);
-  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
 }

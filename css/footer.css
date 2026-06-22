@@ -5,7 +5,6 @@
 
 .footer .box {
   display: flex;
-  gap: 120px;
 }
 
 .footer .logo {
@@ -20,18 +19,26 @@
 
 .social {
   max-width: 208px;
+  margin-left: 120px;
 }
 
 .social .social-list {
   margin-top: 16px;
 }
 
-.social svg {
-  width: 24px;
-  height: 24px;
+.footer .social .social-list {
+  gap: 16px;
+}
+
+.social .social-list .link:hover,
+.social .social-list .link:focus {
+  background-color: var(--green);
 }
 
 .social .title {
   font-weight: 500;
   color: var(--white);
+}
+.social .icon {
+  fill: var(--cloud);
 }
