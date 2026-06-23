@@ -58,6 +58,10 @@
   opacity: 1;
 }
 
+.nav-link.active {
+  color: var(--ocean);
+}
+
 .nav-link.active::after {
   opacity: 1;
 }

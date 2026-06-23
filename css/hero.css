@@ -35,7 +35,7 @@
   border-radius: 4px;
   margin: 48px auto 0;
   display: block;
-  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   transition: background-color 250ms linear;
 }
 
